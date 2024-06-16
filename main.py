@@ -20,7 +20,7 @@ class InputData(BaseModel):
     heart_disease: int
     ever_married: str
     work_type: str
-    Residence_type: str
+    residence_type: str
     avg_glucose_level: float
     bmi: float
     smoking_status: str
