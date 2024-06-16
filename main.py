@@ -33,7 +33,7 @@ class OutputData(BaseModel):
 
 
 # Endpoint to predict stroke
-@app.get("/predict_stroke", response_model=OutputData)
+@app.post("/predict_stroke", response_model=OutputData)
 async def predict_stroke(data: InputData):
     try:
         # Create a DataFrame from input data for prediction
